@@ -1,6 +1,21 @@
-main {
-    justify-content: center;
+#decryptedBox {
+    font-family: Courier, sans-serif;
+    height: 10em;
+    width: 500px;
 }
 
-textarea {
+#encryptedBox {
+    font-family: Courier, sans-serif;
+    height: 10em;
+    width: 500px;
+}
+
+.buttons {
+    width: 400px;
+    display: flex;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+
 }

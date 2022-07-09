@@ -3,24 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <title>Enigma</title>
+    <link rel="stylesheet" href="app.css">
 </head>
 <body>
 
 <main>
-    <div>
+    <div class="title">
         <h1>Enigma</h1>
     </div>
-    <div>
-        <label for="decryptedBox"></label>
-        <textarea id="decryptedBox" placeholder="Escribe tu texto aquí"></textarea>
-    </div>
-    <div>
-        <button id="encrypt" class="button">Encrypt</button>
-        <button id="decrypt" class="button">Decrypt</button>
-    </div>
-    <div>
-        <label for="encryptedBox"></label>
-        <textarea id="encryptedBox"></textarea>
+
+    <div class="container">
+        <div>
+            <label for="decryptedBox"></label>
+            <textarea id="decryptedBox" placeholder="Escribe tu texto aquí"></textarea>
+        </div>
+        <div class="buttons">
+            <button id="encrypt" class="button">&darr; Encrypt &darr;</button>
+            <button id="decrypt" class="button">&uarr; Decrypt &uarr;</button>
+        </div>
+        <div>
+            <label for="encryptedBox"></label>
+            <textarea id="encryptedBox"></textarea>
+        </div>
     </div>
 </main>
 
